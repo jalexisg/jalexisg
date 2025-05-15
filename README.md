@@ -1,9 +1,9 @@
 
-# Hi, I'm Alexiß 👋 <h3>₳lexiß</h3> ⚽️ 🐍
+# Hi, I'm Alexiß 👋 ⚽️ 🐍
 
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://elinversoreficiente.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
 
-I currently run [El Inversor Eficiente](https://elinversoreficiente.com)
 
 I'm a data scientist passionate about algorithmic trading, machine learning, artificial intelligence, and building innovative solutions. 
 
