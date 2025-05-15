@@ -18,21 +18,19 @@ I'm a data scientist passionate about algorithmic trading, machine learning, art
 ## 📂 Featured Projects
 
 ### Trading Systems
-- [trading](https://github.com/jalexisg/trading) - Collection of algorithmic trading strategies
+- Collection of algorithmic trading strategies
   - RSI-MACD-Stochastic bot
   - EMA Cross strategies
   - Grid Trading implementation
   - Portfolio optimization
 
 ### AI & Machine Learning
-- [pdf-rag](https://github.com/jalexisg/ai_projects/pdf-rag) - RAG implementation for PDF analysis
-- [autism-model](https://github.com/jalexisg/autism-model) - ML classification for autism screening
-- [nlp](https://github.com/jalexisg/nlp) - Natural Language Processing projects
+- RAG implementation for PDF analysis
+- Natural Language Processing projects
 
 ### Tools & Utilities
-- [passgen](https://github.com/jalexisg/passgen) - Secure password generator
-- [youtube](https://github.com/jalexisg/youtube) - YouTube media downloader
-- [pdf](https://github.com/jalexisg/pdf) - PDF text processing tools
+- Secure password generator
+- PDF text processing tools
 
 ## 📊 GitHub Stats
 
@@ -48,5 +46,5 @@ I'm a data scientist passionate about algorithmic trading, machine learning, art
 
 ## 📫 Get in Touch
 
-- Website: [jalexisg.github.io](https://jalexisg.github.io)
+- Website: [EIE](https://elinversoreficiente.com)
 - GitHub: [@jalexisg](https://github.com/jalexisg)
