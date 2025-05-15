@@ -12,7 +12,7 @@ I'm a data scientist passionate about algorithmic trading, machine learning, art
 - 🤖 **Machine Learning & AI**: RAG implementations, custom chatbots, ML model deployment
 - 📊 **Data Science**: Classification models, time series analysis, NLP
 - 💹 **Algorithmic Trading**: Developing and testing trading strategies
-- 🛠️ **Software Development**: Python, JavaScript, Data Analysis
+- 🛠️ **Software Development**: Python, Data Analysis
 - 🔧 **DevOps**: GitHub Actions, Docker, Cloud Services
 
 ## 📂 Featured Projects
