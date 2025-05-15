@@ -1,14 +1,52 @@
 
-# Welcome to my GitHub profile
+# Hi, I'm Alexiß 👋 <h3>₳lexiß</h3> ⚽️ 🐍
 
-Hi there! I'm Alex, an investing enthusiast.
+[![Website](https://img.shields.io/badge/Website-jalexisg.github.io-blue)](https://jalexisg.github.io)
 
-## About Me
+I currently run [El Inversor Eficiente](https://elinversoreficiente.com)
 
-I currently run [El Inversor Eficiente](https://elinversoreficiente.com), where I share my investment knowledge and experience with the community.
+I'm a data scientist passionate about machine learning, artificial intelligence, and building innovative solutions. 
 
-## My Interests
+## 🚀 What I Do
 
-I'm passionate about the world of investing and everything related to the stock market and cryptocurrencies. I enjoy analyzing markets and discovering investment opportunities.
+- 🤖 **Machine Learning & AI**: RAG implementations, custom chatbots, ML model deployment
+- 📊 **Data Science**: Classification models, time series analysis, NLP
+- 💹 **Algorithmic Trading**: Developing and testing trading strategies
+- 🛠️ **Software Development**: Python, JavaScript, Data Analysis
+- 🔧 **DevOps**: GitHub Actions, Docker, Cloud Services
 
-<h3>₳lexiß</h3> ⚽️ 🐍
+## 📂 Featured Projects
+
+### Trading Systems
+- [trading](https://github.com/jalexisg/trading) - Collection of algorithmic trading strategies
+  - RSI-MACD-Stochastic bot
+  - EMA Cross strategies
+  - Grid Trading implementation
+  - Portfolio optimization
+
+### AI & Machine Learning
+- [pdf-rag](https://github.com/jalexisg/ai_projects/pdf-rag) - RAG implementation for PDF analysis
+- [autism-model](https://github.com/jalexisg/autism-model) - ML classification for autism screening
+- [nlp](https://github.com/jalexisg/nlp) - Natural Language Processing projects
+
+### Tools & Utilities
+- [passgen](https://github.com/jalexisg/passgen) - Secure password generator
+- [youtube](https://github.com/jalexisg/youtube) - YouTube media downloader
+- [pdf](https://github.com/jalexisg/pdf) - PDF text processing tools
+
+## 📊 GitHub Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=jalexisg&show_icons=true&theme=radical)
+
+## 🛠️ Technologies & Tools
+
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)
+
+## 📫 Get in Touch
+
+- Website: [jalexisg.github.io](https://jalexisg.github.io)
+- GitHub: [@jalexisg](https://github.com/jalexisg)
