@@ -1,11 +1,11 @@
 
 # Hi, I'm Alexiß 👋 <h3>₳lexiß</h3> ⚽️ 🐍
 
-[![Website](https://img.shields.io/badge/Website-jalexisg.github.io-blue)](https://jalexisg.github.io)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
 
 I currently run [El Inversor Eficiente](https://elinversoreficiente.com)
 
-I'm a data scientist passionate about machine learning, artificial intelligence, and building innovative solutions. 
+I'm a data scientist passionate about algorithmic trading, machine learning, artificial intelligence, and building innovative solutions. 
 
 ## 🚀 What I Do
 
