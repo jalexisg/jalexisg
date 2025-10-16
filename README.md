@@ -42,6 +42,7 @@ I'm a data scientist passionate about algorithmic trading, machine learning, art
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Database-SQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
 
 ## 📫 Get in Touch
 
