@@ -61,9 +61,9 @@ A collection of automated trading strategies designed for various market conditi
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jalexisg&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jalexisg&show_icons=true&theme=dark" alt="GitHub Stats" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jalexisg&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jalexisg&layout=compact&theme=dark" alt="Top Languages" />
 </div>
 
 ---
