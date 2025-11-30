@@ -1,8 +1,8 @@
 # Hi, I'm Alexiß 👋
 
-[![Website](https://img.shields.io/badge/Website-elinversoreficiente.com-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://elinversoreficiente.com)
-[![Instagram](https://img.shields.io/badge/Instagram-@el.inversor.eficiente-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jalexisg/)
+[![Website](https://img.shields.io/badge/Website-elinversoreficiente.com-000000?style=flat-square&logo=About.me&logoColor=white)](https://elinversoreficiente.com)
+[![Instagram](https://img.shields.io/badge/Instagram-@el.inversor.eficiente-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jalexisg/)
 
 I'm a **Data Scientist** and **Software Engineer** passionate about algorithmic trading, machine learning, and building scalable solutions. I specialize in transforming complex data into actionable insights and robust applications.
 
@@ -18,6 +18,15 @@ I'm a **Data Scientist** and **Software Engineer** passionate about algorithmic 
 ---
 
 ## 📂 Featured Projects
+
+### 📈 Investing Dashboard
+**[View Repository](https://github.com/jalexisg/investing)**
+A comprehensive stock analysis dashboard for valuation and portfolio management.
+- **Tech Stack**: Python, Streamlit, Pandas, yfinance.
+- **Key Features**:
+    - Advanced valuation models (DCF, Graham Number, Peter Lynch).
+    - Real-time ticker management and persistence.
+    - Interactive UI for financial data visualization.
 
 ### 🏙️ Population Information System
 **[View Repository](https://github.com/jalexisg/SE-Methods_Group-3)**
@@ -60,11 +69,8 @@ A collection of automated trading strategies designed for various market conditi
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jalexisg&show_icons=true&theme=dark" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jalexisg&layout=compact&theme=dark" alt="Top Languages" />
-</div>
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jalexisg&theme=dark)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jalexisg&theme=dark)
 
 ---
 
