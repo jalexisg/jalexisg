@@ -28,6 +28,15 @@ A comprehensive stock analysis dashboard for valuation and portfolio management.
     - Real-time ticker management and persistence.
     - Interactive UI for financial data visualization.
 
+### 🧠 Super Cerebros
+**[Play Now](https://supercerebros.org/play)**
+A gamified platform for learning mental calculation techniques from Guinness Record holder Jaime García Serrano.
+- **Tech Stack**: Next.js, Django, PostgreSQL, Docker.
+- **Key Features**:
+    - Interactive mental math games.
+    - User progress tracking and leaderboards.
+    - Subscription management.
+
 ### 🏙️ Population Information System
 **[View Repository](https://github.com/jalexisg/SE-Methods_Group-3)**
 A robust population monitoring system built for scalability and performance.
@@ -58,6 +67,13 @@ A collection of automated trading strategies designed for various market conditi
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+### Frameworks
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 
 ### Tools & Platforms
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
