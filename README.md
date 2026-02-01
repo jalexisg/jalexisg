@@ -4,7 +4,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-@el.inversor.eficiente-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jalexisg/)
 
-I'm a **Data Scientist** and **Software Engineer** passionate about algorithmic trading, machine learning, and building scalable solutions. I specialize in transforming complex data into actionable insights and robust applications.
+I'm a **Data Scientist** and **AI Software Engineer** passionate about algorithmic trading, machine learning, and building scalable solutions. I specialize in transforming complex data into actionable insights and robust applications.
 
 ---
 
@@ -13,7 +13,7 @@ I'm a **Data Scientist** and **Software Engineer** passionate about algorithmic 
 - 🤖 **Machine Learning & AI**: RAG implementations, custom chatbots, and ML model deployment.
 - 📊 **Data Science**: Advanced classification models, time series analysis, and NLP.
 - 💹 **Algorithmic Trading**: Developing, backtesting, and optimizing automated trading strategies.
-- 🛠️ **Software Engineering**: Full-stack development with Python, Docker, and Cloud services.
+- 🛠️ **AI Software Engineering**: Full-stack development with Python, Docker, and Cloud services.
 
 ---
 

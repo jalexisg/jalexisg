@@ -1,6 +1,6 @@
 // Typing Effect
 const typingTexts = [
-    'Data Scientist & Software Engineer',
+    'Data Scientist & AI Software Engineer',
     'Algorithmic Trading Specialist',
     'Machine Learning Engineer',
     'Full-Stack Developer'
