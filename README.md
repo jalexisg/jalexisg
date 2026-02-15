@@ -37,6 +37,15 @@ A gamified platform for learning mental calculation techniques from Guinness Rec
     - User progress tracking and leaderboards.
     - Subscription management.
 
+### 🎥 Audio Transcriber & Summarizer
+**[View Repository](https://github.com/jalexisg/youtube)**
+An advanced Python project to extract audio from videos, transcribe content using OpenAI's Whisper, and generate intelligent summaries.
+- **Tech Stack**: Python, Whisper, Hugging Face, Docker, Next.js.
+- **Key Features**:
+    - Automatic transcription of YouTube videos and Shorts.
+    - Intelligent summarization and social media descriptions using **Hugging Face** models.
+    - Modern web interface and CLI support.
+
 ### 🏙️ Population Information System
 **[View Repository](https://github.com/jalexisg/SE-Methods_Group-3)**
 A robust population monitoring system built for scalability and performance.
