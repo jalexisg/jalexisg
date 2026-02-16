@@ -3,8 +3,13 @@
 [![Website](https://img.shields.io/badge/Website-elinversoreficiente.com-000000?style=flat-square&logo=About.me&logoColor=white)](https://elinversoreficiente.com)
 [![Instagram](https://img.shields.io/badge/Instagram-@el.inversor.eficiente-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jalexisg/)
+[![Agent Ready](https://img.shields.io/badge/Agent-Ready-blueviolet?style=flat-square&logo=robotframework)](./AGENTS.md)
+[![Agent Skills](https://img.shields.io/badge/Agent-Skills-success?style=flat-square&logo=gitbook)](./skills/portfolio/SKILL.md)
 
-I'm a **Data Scientist** and **AI Software Engineer** passionate about algorithmic trading, machine learning, and building scalable solutions. I specialize in transforming complex data into actionable insights and robust applications.
+I'm a **Data Scientist** and **AI Software Engineer** passionate about algorithmic trading, machine learning, and building scalable solutions.
+
+> [!NOTE]
+> This repository is **Agent-Ready**. It follows the [AGENTS.md](./AGENTS.md) and [Agent Skills](./skills/portfolio/SKILL.md) standards to ensure seamless collaboration with AI coding assistants.
 
 ---
 
