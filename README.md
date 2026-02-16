@@ -1,8 +1,6 @@
 # Hi, I'm Alexiß 👋
 
-[![Website](https://img.shields.io/badge/Website-elinversoreficiente.com-000000?style=flat-square&logo=About.me&logoColor=white)](https://elinversoreficiente.com)
-[![Instagram](https://img.shields.io/badge/Instagram-@el.inversor.eficiente-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/el.inversor.eficiente/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jalexisg/)
+[![Website](https://img.shields.io/badge/Website-jalexisg.com-000000?style=flat-square&logo=About.me&logoColor=white)](https://jalexisg.com)
 [![Agent Ready](https://img.shields.io/badge/Agent-Ready-blueviolet?style=flat-square&logo=robotframework)](./AGENTS.md)
 [![Agent Skills](https://img.shields.io/badge/Agent-Skills-success?style=flat-square&logo=gitbook)](./skills/portfolio/SKILL.md)
 
@@ -108,5 +106,5 @@ A collection of automated trading strategies designed for various market conditi
 
 ## 📫 Get in Touch
 
-- 🌐 **Website**: [elinversoreficiente.com](https://elinversoreficiente.com)
+- 🌐 **Website**: [jalexisg.com](https://jalexisg.com)
 - 🐙 **GitHub**: [@jalexisg](https://github.com/jalexisg)
