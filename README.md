@@ -10,10 +10,10 @@ I'm a **Data Scientist** and **AI Software Engineer** passionate about algorithm
 
 ## 🚀 What I Do
 
-- 🤖 **Machine Learning & AI**: RAG implementations, custom chatbots, and ML model deployment.
-- 📊 **Data Science**: Advanced classification models, time series analysis, and NLP.
-- 💹 **Algorithmic Trading**: Developing, backtesting, and optimizing automated trading strategies.
-- 🛠️ **AI Software Engineering**: Full-stack development with Python, Docker, and Cloud services.
+- 🤖 **AI Tools & Concepts**: Proficient in agentic platforms like **Google Antigravity** (Agentic Workflows) and **GitHub Copilot**. Expertise in **Prompt Engineering**, **RAG** (Retrieval-Augmented Generation), and AI-driven SDLC optimization.
+- 📊 **Programming & Data Science**: Advanced analysis and visualization using **Python** (AI-assisted scripting) and **SQL**. Skilled in **Pandas**, **NumPy**, and **Matplotlib**.
+- 🧪 **Machine Learning & Stats**: Practical implementation of **Scikit-learn** (basic models) and data preprocessing. Strong foundation in **Hypothesis Testing** and **Regression Analysis**.
+- ✅ **Quality Assurance**: Dedicated to applying AI-driven insights to real-world technical challenges. Experienced in **Test Execution**, **Bug Reporting**, and **Linguistic Verification**.
 
 ---
 
@@ -89,6 +89,8 @@ A collection of automated trading strategies designed for various market conditi
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Google_Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 
 ---
 
