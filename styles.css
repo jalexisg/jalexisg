@@ -376,9 +376,11 @@ section {
 .about-text .lead {
     font-size: 1.3rem;
     color: var(--color-text-secondary);
-    text-align: center;
+    text-align: justify;
     max-width: 800px;
     margin: 0 auto var(--spacing-lg);
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .about-grid {
@@ -426,7 +428,6 @@ section {
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
-    word-break: normal;
 }
 
 /* Projects Section */
@@ -510,6 +511,9 @@ section {
     color: var(--color-text-secondary);
     margin-bottom: var(--spacing-sm);
     line-height: 1.6;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .project-tags {

@@ -22,7 +22,7 @@ const translations = {
         // About
         "about-title": "Sobre Mí",
         "about-lead": "Soy un <strong>Data Scientist</strong> y <strong>AI Software Engineer</strong> apasionado por el trading algorítmico, machine learning y la construcción de soluciones escalables.",
-        "about-ai-title": "Herramientas de IA",
+        "about-ai-title": "AI Tools",
         "about-ai-desc": "Experto en plataformas agénticas (<strong>Google Antigravity</strong>, <strong>GitHub Copilot</strong>) y flujos de trabajo con <strong>Prompt Engineering</strong>, <strong>RAG</strong> y optimización de SDLC impulsada por IA.",
         "about-prog-title": "Programación",
         "about-prog-desc": "Análisis avanzado con <strong>Python</strong> (scripting asistido por IA) y <strong>SQL</strong>. Especializado en <strong>Pandas</strong>, <strong>NumPy</strong> y <strong>Matplotlib</strong> para visualización.",
