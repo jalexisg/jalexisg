@@ -30,6 +30,16 @@ A comprehensive stock analysis dashboard for valuation and portfolio management.
     - Advanced valuation models (DCF, Graham Number, Peter Lynch).
     - Real-time ticker management and persistence.
     - Interactive UI for financial data visualization.
+    
+### 🇨🇴 Visit Colombia
+**[View Repository](https://github.com/jalexisg/visit_colombia)**
+A modern tourism platform to explore 1,100+ Colombian municipalities with a specialized AI assistant.
+- **Tech Stack**: Next.js, Python, TypeScript, Tailwind CSS, Gradio.
+- **Key Features**:
+    - **Travel Expert Chatbot**: Integrated AI assistant using Qwen 2.5 with a focus on factual accuracy.
+    - **Anti-Hallucination Engine**: Grounding strategy using a master database to ensure verified information.
+    - **Auto-Navigation**: Intelligent chatbot capable of automatically redirecting the UI based on conversation context.
+    - **Hugging Face Integration**: AI backend hosted on Hugging Face Spaces for scalability.
 
 ### 🧠 Super Cerebros
 **[Play Now](https://supercerebros.org/play)**
