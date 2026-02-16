@@ -34,6 +34,9 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon-v4.png">
+
+    <!-- Translations -->
+    <script src="translations.js"></script>
 </head>
 
 <body>
@@ -44,12 +47,15 @@
                 <span class="logo-text">Alexis<span class="accent">García</span></span>
             </a>
             <ul class="nav-links">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#home" data-i18n="nav-home">Inicio</a></li>
+                <li><a href="#about" data-i18n="nav-about">Sobre Mí</a></li>
+                <li><a href="#projects" data-i18n="nav-projects">Proyectos</a></li>
+                <li><a href="#skills" data-i18n="nav-skills">Habilidades</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Contacto</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button id="lang-btn" class="lang-btn">ES / EN</button>
+            </div>
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -63,22 +69,22 @@
         <div class="hero-background"></div>
         <div class="container hero-content">
             <div class="hero-text">
-                <h1 class="hero-title">
+                <h1 class="hero-title" data-i18n="hero-title">
                     Hola, soy <span class="gradient-text">Alexis</span> 👋
                 </h1>
                 <p class="hero-subtitle">
                     <span class="typing-text"></span>
                 </p>
-                <p class="hero-description">
+                <p class="hero-description" data-i18n="hero-description">
                     Transformo datos complejos en insights accionables y aplicaciones robustas.
                     Especializado en trading algorítmico, machine learning y desarrollo de soluciones escalables.
                 </p>
                 <div class="hero-cta">
                     <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> Ver Proyectos
+                        <i class="fas fa-rocket"></i> <span data-i18n="hero-btn-projects">Ver Proyectos</span>
                     </a>
                     <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i> Contacto
+                        <i class="fas fa-envelope"></i> <span data-i18n="hero-btn-contact">Contacto</span>
                     </a>
                 </div>
                 <div class="hero-social">
@@ -108,27 +114,29 @@
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">
-                <span class="gradient-text">Sobre Mí</span>
+                <span class="gradient-text" data-i18n="about-title">Sobre Mí</span>
             </h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p class="lead">
+                    <p class="lead" data-i18n="about-lead">
                         Soy un <strong>Data Scientist</strong> y <strong>AI Software Engineer</strong> apasionado por
                         el trading algorítmico, machine learning y la construcción de soluciones escalables.
                     </p>
                     <div class="about-grid">
                         <div class="about-item">
                             <i class="fas fa-robot"></i>
-                            <h3>AI Tools</h3>
-                            <p>Experto en plataformas agénticas (<strong>Google Antigravity</strong>, <strong>GitHub
+                            <h3 data-i18n="about-ai-title">AI Tools</h3>
+                            <p data-i18n="about-ai-desc">Experto en plataformas agénticas (<strong>Google
+                                    Antigravity</strong>, <strong>GitHub
                                     Copilot</strong>) y flujos de
                                 trabajo con <strong>Prompt Engineering</strong>, <strong>RAG</strong> y optimización de
                                 SDLC impulsada por IA.</p>
                         </div>
                         <div class="about-item">
                             <i class="fas fa-chart-bar"></i>
-                            <h3>Programming</h3>
-                            <p>Análisis avanzado con <strong>Python</strong> (scripting asistido por IA) y
+                            <h3 data-i18n="about-prog-title">Programming</h3>
+                            <p data-i18n="about-prog-desc">Análisis avanzado con <strong>Python</strong> (scripting
+                                asistido por IA) y
                                 <strong>SQL</strong>. Especializado en
                                 <strong>Pandas</strong>, <strong>NumPy</strong> y <strong>Matplotlib</strong> para
                                 visualización.
@@ -136,15 +144,17 @@
                         </div>
                         <div class="about-item">
                             <i class="fas fa-microchip"></i>
-                            <h3>Machine Learning</h3>
-                            <p>Implementación de modelos con <strong>Scikit-learn</strong> y preprocesamiento de datos.
+                            <h3 data-i18n="about-ml-title">Machine Learning</h3>
+                            <p data-i18n="about-ml-desc">Implementación de modelos con <strong>Scikit-learn</strong> y
+                                preprocesamiento de datos.
                                 Sólida base
                                 en <strong>Pruebas de Hipótesis</strong> y <strong>Análisis de Regresión</strong>.</p>
                         </div>
                         <div class="about-item">
                             <i class="fas fa-vial-circle-check"></i>
-                            <h3>Quality Assurance</h3>
-                            <p>Comprometido con la calidad del software mediante <strong>Ejecución de Pruebas</strong>,
+                            <h3 data-i18n="about-qa-title">Quality Assurance</h3>
+                            <p data-i18n="about-qa-desc">Comprometido con la calidad del software mediante
+                                <strong>Ejecución de Pruebas</strong>,
                                 <strong>Reporte de
                                     Errores</strong> y <strong>Verificación Lingüística</strong> con insights de IA.
                             </p>
@@ -159,7 +169,7 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">
-                <span class="gradient-text">Proyectos Destacados</span>
+                <span class="gradient-text" data-i18n="projects-title">Proyectos Destacados</span>
             </h2>
             <div class="projects-grid">
                 <!-- Project 1: Investing Dashboard -->
@@ -167,8 +177,9 @@
                     <div class="project-icon">
                         <i class="fas fa-chart-pie"></i>
                     </div>
-                    <h3>Investing Dashboard</h3>
-                    <p>Dashboard completo de análisis de acciones para valoración y gestión de portafolios.</p>
+                    <h3 data-i18n="project-1-title">Investing Dashboard</h3>
+                    <p data-i18n="project-1-desc">Dashboard completo de análisis de acciones para valoración y gestión
+                        de portafolios.</p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
                         <span class="tag">Streamlit</span>
@@ -176,23 +187,25 @@
                         <span class="tag">yfinance</span>
                     </div>
                     <ul class="project-features">
-                        <li>Modelos de valoración avanzados (DCF, Graham Number, Peter Lynch)</li>
-                        <li>Gestión de tickers en tiempo real</li>
-                        <li>UI interactiva para visualización de datos financieros</li>
+                        <li data-i18n="project-1-feat-1">Modelos de valoración avanzados (DCF, Graham Number, Peter
+                            Lynch)</li>
+                        <li data-i18n="project-1-feat-2">Gestión de tickers en tiempo real</li>
+                        <li data-i18n="project-1-feat-3">UI interactiva para visualización de datos financieros</li>
                     </ul>
                     <a href="https://github.com/jalexisg/investing" target="_blank" rel="noopener" class="project-link">
-                        Ver Repositorio <i class="fas fa-arrow-right"></i>
+                        <span data-i18n="project-1-link">Ver Repositorio</span> <i class="fas fa-arrow-right"></i>
                     </a>
                 </article>
 
                 <!-- Project 2: Super Cerebros -->
                 <article class="project-card featured">
-                    <div class="featured-badge">Destacado</div>
+                    <div class="featured-badge" data-i18n="project-2-badge">Destacado</div>
                     <div class="project-icon">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3>Super Cerebros</h3>
-                    <p>Plataforma gamificada para aprender técnicas de cálculo mental del poseedor del Récord Guinness
+                    <h3 data-i18n="project-2-title">Super Cerebros</h3>
+                    <p data-i18n="project-2-desc">Plataforma gamificada para aprender técnicas de cálculo mental del
+                        poseedor del Récord Guinness
                         Jaime García Serrano.</p>
                     <div class="project-tags">
                         <span class="tag">Next.js</span>
@@ -201,12 +214,12 @@
                         <span class="tag">Docker</span>
                     </div>
                     <ul class="project-features">
-                        <li>Juegos interactivos de matemáticas mentales</li>
-                        <li>Seguimiento de progreso y tablas de clasificación</li>
-                        <li>Gestión de suscripciones</li>
+                        <li data-i18n="project-2-feat-1">Juegos interactivos de matemáticas mentales</li>
+                        <li data-i18n="project-2-feat-2">Seguimiento de progreso y tablas de clasificación</li>
+                        <li data-i18n="project-2-feat-3">Gestión de suscripciones</li>
                     </ul>
                     <a href="https://supercerebros.org/play" target="_blank" rel="noopener" class="project-link">
-                        Jugar Ahora <i class="fas fa-arrow-right"></i>
+                        <span data-i18n="project-2-link">Jugar Ahora</span> <i class="fas fa-arrow-right"></i>
                     </a>
                 </article>
 
@@ -215,8 +228,9 @@
                     <div class="project-icon">
                         <i class="fas fa-microphone-lines"></i>
                     </div>
-                    <h3>Audio Transcriber & Summarizer</h3>
-                    <p>Extracción de audio, transcripción con Whisper y generación de resúmenes inteligentes.</p>
+                    <h3 data-i18n="project-3-title">Audio Transcriber & Summarizer</h3>
+                    <p data-i18n="project-3-desc">Extracción de audio, transcripción con Whisper y generación de
+                        resúmenes inteligentes.</p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
                         <span class="tag">Whisper</span>
@@ -225,12 +239,13 @@
                         <span class="tag">Next.js</span>
                     </div>
                     <ul class="project-features">
-                        <li>Transcripción automática de videos y Shorts</li>
-                        <li>Resúmenes y descripciones para RRSS usando modelos de **Hugging Face**</li>
-                        <li>Interfaz web moderna y soporte CLI</li>
+                        <li data-i18n="project-3-feat-1">Transcripción automática de videos y Shorts</li>
+                        <li data-i18n="project-3-feat-2">Resúmenes y descripciones para RRSS usando modelos de **Hugging
+                            Face**</li>
+                        <li data-i18n="project-3-feat-3">Interfaz web moderna y soporte CLI</li>
                     </ul>
                     <a href="https://github.com/jalexisg/youtube" target="_blank" rel="noopener" class="project-link">
-                        Ver Repositorio <i class="fas fa-arrow-right"></i>
+                        <span data-i18n="project-3-link">Ver Repositorio</span> <i class="fas fa-arrow-right"></i>
                     </a>
                 </article>
 
@@ -239,8 +254,9 @@
                     <div class="project-icon">
                         <i class="fas fa-city"></i>
                     </div>
-                    <h3>Population Information System</h3>
-                    <p>Sistema robusto de monitoreo de población construido para escalabilidad y rendimiento.</p>
+                    <h3 data-i18n="project-4-title">Population Information System</h3>
+                    <p data-i18n="project-4-desc">Sistema robusto de monitoreo de población construido para
+                        escalabilidad y rendimiento.</p>
                     <div class="project-tags">
                         <span class="tag">Java</span>
                         <span class="tag">Docker</span>
@@ -248,13 +264,14 @@
                         <span class="tag">Maven</span>
                     </div>
                     <ul class="project-features">
-                        <li>Generación automatizada de reportes de estadísticas poblacionales</li>
-                        <li>Pipeline CI/CD para testing y deployment automatizado</li>
-                        <li>Arquitectura containerizada para entornos consistentes</li>
+                        <li data-i18n="project-4-feat-1">Generación automatizada de reportes de estadísticas
+                            poblacionales</li>
+                        <li data-i18n="project-4-feat-2">Pipeline CI/CD para testing y deployment automatizado</li>
+                        <li data-i18n="project-4-feat-3">Arquitectura containerizada para entornos consistentes</li>
                     </ul>
                     <a href="https://github.com/jalexisg/SE-Methods_Group-3" target="_blank" rel="noopener"
                         class="project-link">
-                        Ver Repositorio <i class="fas fa-arrow-right"></i>
+                        <span data-i18n="project-4-link">Ver Repositorio</span> <i class="fas fa-arrow-right"></i>
                     </a>
                 </article>
 
@@ -263,8 +280,9 @@
                     <div class="project-icon">
                         <i class="fas fa-robot"></i>
                     </div>
-                    <h3>Sistemas de Trading Algorítmico</h3>
-                    <p>Colección de estrategias de trading automatizadas diseñadas para diversas condiciones de mercado.
+                    <h3 data-i18n="project-5-title">Sistemas de Trading Algorítmico</h3>
+                    <p data-i18n="project-5-desc">Colección de estrategias de trading automatizadas diseñadas para
+                        diversas condiciones de mercado.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
@@ -273,12 +291,12 @@
                         <span class="tag">APIs</span>
                     </div>
                     <ul class="project-features">
-                        <li>Bot RSI-MACD-Stochastic para seguimiento de tendencias</li>
-                        <li>Estrategias EMA Cross de alta frecuencia</li>
-                        <li>Grid Trading para mercados laterales</li>
-                        <li>Herramientas de optimización de portafolios</li>
+                        <li data-i18n="project-5-feat-1">Bot RSI-MACD-Stochastic para seguimiento de tendencias</li>
+                        <li data-i18n="project-5-feat-2">Estrategias EMA Cross de alta frecuencia</li>
+                        <li data-i18n="project-5-feat-3">Grid Trading para mercados laterales</li>
+                        <li data-i18n="project-5-feat-4">Herramientas de optimización de portafolios</li>
                     </ul>
-                    <div class="project-private">
+                    <div class="project-private" data-i18n="project-5-private">
                         <i class="fas fa-lock"></i> Proyecto Privado
                     </div>
                 </article>
@@ -288,8 +306,9 @@
                     <div class="project-icon">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3>AI & Machine Learning</h3>
-                    <p>Proyectos de investigación y desarrollo en inteligencia artificial y aprendizaje automático.</p>
+                    <h3 data-i18n="project-6-title">AI & Machine Learning</h3>
+                    <p data-i18n="project-6-desc">Proyectos de investigación y desarrollo en inteligencia artificial y
+                        aprendizaje automático.</p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
                         <span class="tag">LangChain</span>
@@ -297,11 +316,12 @@
                         <span class="tag">RAG</span>
                     </div>
                     <ul class="project-features">
-                        <li>Analizador PDF con RAG para consultar documentos complejos</li>
-                        <li>Toolkit NLP para análisis de sentimientos y procesamiento de texto</li>
-                        <li>Modelos personalizados de clasificación y predicción</li>
+                        <li data-i18n="project-6-feat-1">Analizador PDF con RAG para consultar documentos complejos</li>
+                        <li data-i18n="project-6-feat-2">Toolkit NLP para análisis de sentimientos y procesamiento de
+                            texto</li>
+                        <li data-i18n="project-6-feat-3">Modelos personalizados de clasificación y predicción</li>
                     </ul>
-                    <div class="project-private">
+                    <div class="project-private" data-i18n="project-6-dev">
                         <i class="fas fa-flask"></i> Investigación & Desarrollo
                     </div>
                 </article>
@@ -313,11 +333,11 @@
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">
-                <span class="gradient-text">Tecnologías & Herramientas</span>
+                <span class="gradient-text" data-i18n="skills-title">Tecnologías & Herramientas</span>
             </h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Lenguajes & Datos</h3>
+                    <h3><i class="fas fa-code"></i> <span data-i18n="skill-cat-1">Lenguajes & Datos</span></h3>
                     <div class="skill-tags">
                         <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
                         <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
@@ -327,7 +347,7 @@
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-chart-line"></i> Data Science & ML</h3>
+                    <h3><i class="fas fa-chart-line"></i> <span data-i18n="skill-cat-2">Data Science & ML</span></h3>
                     <div class="skill-tags">
                         <span class="skill-tag"><i class="fas fa-table"></i> Pandas</span>
                         <span class="skill-tag"><i class="fas fa-square-root-alt"></i> NumPy</span>
@@ -337,7 +357,7 @@
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <h3><i class="fas fa-layer-group"></i> <span data-i18n="skill-cat-3">Frameworks</span></h3>
                     <div class="skill-tags">
                         <span class="skill-tag"><i class="fab fa-react"></i> React / Next.js</span>
                         <span class="skill-tag"><i class="fas fa-server"></i> Django</span>
@@ -345,7 +365,8 @@
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Herramientas & Plataformas</h3>
+                    <h3><i class="fas fa-tools"></i> <span data-i18n="skill-cat-4">Herramientas & Plataformas</span>
+                    </h3>
                     <div class="skill-tags">
                         <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
                         <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
@@ -388,15 +409,15 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">
-                <span class="gradient-text">Conectemos</span>
+                <span class="gradient-text" data-i18n="contact-title">Conectemos</span>
             </h2>
-            <p class="contact-description">
+            <p class="contact-description" data-i18n="contact-desc">
                 ¿Tienes un proyecto en mente o quieres colaborar? ¡Me encantaría saber de ti!
             </p>
             <div class="contact-grid">
                 <a href="https://elinversoreficiente.com" target="_blank" rel="noopener" class="contact-card">
                     <i class="fas fa-globe"></i>
-                    <h3>Website</h3>
+                    <h3 data-i18n="contact-web">Website</h3>
                     <p>elinversoreficiente.com</p>
                 </a>
                 <a href="https://github.com/jalexisg" target="_blank" rel="noopener" class="contact-card">
@@ -407,7 +428,7 @@
                 <a href="https://www.linkedin.com/in/jalexisg/" target="_blank" rel="noopener" class="contact-card">
                     <i class="fab fa-linkedin"></i>
                     <h3>LinkedIn</h3>
-                    <p>Connect</p>
+                    <p data-i18n="contact-linkedin">Connect</p>
                 </a>
                 <a href="https://www.instagram.com/el.inversor.eficiente/" target="_blank" rel="noopener"
                     class="contact-card">
@@ -422,8 +443,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; <span id="year"></span> Alexis García. Hecho con <i class="fas fa-heart"></i> y <i
-                    class="fas fa-coffee"></i></p>
+            <p>&copy; <span id="year"></span> Alexis García. <span data-i18n="footer-made">Hecho con</span> <i
+                    class="fas fa-heart"></i> y <i class="fas fa-coffee"></i></p>
         </div>
     </footer>
 

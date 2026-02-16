@@ -1,10 +1,5 @@
 // Typing Effect
-const typingTexts = [
-    'Data Scientist & AI Software Engineer',
-    'Algorithmic Trading Specialist',
-    'Machine Learning Engineer',
-    'Full-Stack Developer'
-];
+let typingTexts = translations['es']['typing-texts'];
 
 let textIndex = 0;
 let charIndex = 0;
@@ -219,8 +214,71 @@ function debounce(func, wait) {
     };
 }
 
+// Language Management
+let currentLang = 'es';
+
+function updateContent() {
+    // Update all elements with data-i18n attribute
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[currentLang][key]) {
+            el.innerHTML = translations[currentLang][key];
+        }
+    });
+
+    // Update typing texts
+    typingTexts = translations[currentLang]['typing-texts'];
+    charIndex = 0;
+    textIndex = 0;
+    isDeleting = false;
+
+    // Update button text
+    const langBtn = document.getElementById('lang-btn');
+    if (langBtn) {
+        langBtn.textContent = currentLang === 'es' ? 'ES / EN' : 'EN / ES';
+    }
+
+    // Update html lang attribute
+    document.documentElement.lang = currentLang;
+}
+
+function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('preferredLanguage', lang);
+    updateContent();
+}
+
+function toggleLanguage() {
+    const newLang = currentLang === 'es' ? 'en' : 'es';
+    setLanguage(newLang);
+}
+
+function initLanguage() {
+    const langBtn = document.getElementById('lang-btn');
+    if (langBtn) {
+        langBtn.addEventListener('click', toggleLanguage);
+    }
+
+    // Detection priority: 1. localStorage, 2. browser language, 3. Spanish (default)
+    const savedLang = localStorage.getItem('preferredLanguage');
+    const browserLang = navigator.language.split('-')[0];
+
+    if (savedLang && translations[savedLang]) {
+        currentLang = savedLang;
+    } else if (browserLang === 'en') {
+        currentLang = 'en';
+    } else {
+        currentLang = 'es';
+    }
+
+    updateContent();
+}
+
 // Initialize All Features
 function init() {
+    // Initialize language first
+    initLanguage();
+
     // Start typing effect
     typeEffect();
 

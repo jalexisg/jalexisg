@@ -891,3 +891,34 @@ section {
         font-size: 1.8rem;
     }
 }
+
+/* Language Switcher */
+.lang-switcher {
+    margin-left: 1.5rem;
+}
+
+.lang-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    border-color: var(--accent-light);
+}
+
+@media (max-width: 768px) {
+    .lang-switcher {
+        margin: 1rem 0;
+        order: -1;
+    }
+}
