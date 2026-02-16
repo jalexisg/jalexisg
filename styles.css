@@ -424,6 +424,9 @@ section {
     color: var(--color-text-secondary);
     font-size: 0.95rem;
     text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-break: normal;
 }
 
 /* Projects Section */
