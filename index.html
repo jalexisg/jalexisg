@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Alexis García - Data Scientist & AI Software Engineer specializing in machine learning and scalable solutions.">
+    <meta name="keywords"
+        content="Data Science, Machine Learning, Software Engineering, Python, Django, Next.js">
+    <meta name="author" content="Alexis García">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alexis García - Data Scientist & AI Software Engineer">
+    <meta property="og:description"
+        content="Transforming complex data into actionable insights and robust applications.">
+    <meta property="og:url" content="https://jalexisg.github.io/jalexisg/">
+
+    <title>Alexis García - Data Scientist & AI Software Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon-v4.png">
+
+    <!-- Translations -->
+    <script src="translations.js?v=1.1"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Alexis<span class="accent">García</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav-home">Inicio</a></li>
+                <li><a href="#about" data-i18n="nav-about">Sobre Mí</a></li>
+                <li><a href="#projects" data-i18n="nav-projects">Proyectos</a></li>
+                <li><a href="#skills" data-i18n="nav-skills">Habilidades</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Contacto</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-btn" class="lang-btn">ES / EN</button>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-i18n="hero-title">
+                    Hola, soy <span class="gradient-text">Alexis</span> 👋
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </p>
+                <p class="hero-description" data-i18n="hero-description">
+                    Transformo datos complejos en insights accionables y aplicaciones robustas.
+                    Especializado en machine learning y desarrollo de soluciones escalables.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> <span data-i18n="hero-btn-projects">Ver Proyectos</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> <span data-i18n="hero-btn-contact">Contacto</span>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://elinversoreficiente.com" target="_blank" rel="noopener" aria-label="Website">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    <a href="https://github.com/jalexisg" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jalexisg/" target="_blank" rel="noopener"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/el.inversor.eficiente/" target="_blank" rel="noopener"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text" data-i18n="about-title">Sobre Mí</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead" data-i18n="about-lead">
+                        Soy un <strong>Data Scientist</strong> y <strong>AI Software Engineer</strong> apasionado por
+                        el machine learning y la construcción de soluciones escalables.
+                    </p>
+                    <div class="about-grid">
+                        <div class="about-item">
+                            <i class="fas fa-robot"></i>
+                            <h3 data-i18n="about-ai-title">AI Tools</h3>
+                            <p data-i18n="about-ai-desc">Experto en plataformas agénticas (<strong>Google
+                                    Antigravity</strong>, <strong>GitHub
+                                    Copilot</strong>) y flujos de
+                                trabajo con <strong>Prompt Engineering</strong>, <strong>RAG</strong> y optimización de
+                                SDLC impulsada por IA.</p>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <h3 data-i18n="about-prog-title">Programming</h3>
+                            <p data-i18n="about-prog-desc">Análisis avanzado con <strong>Python</strong> (scripting
+                                asistido por IA) y
+                                <strong>SQL</strong>. Especializado en
+                                <strong>Pandas</strong>, <strong>NumPy</strong> y <strong>Matplotlib</strong> para
+                                visualización.
+                            </p>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-microchip"></i>
+                            <h3 data-i18n="about-ml-title">Machine Learning</h3>
+                            <p data-i18n="about-ml-desc">Implementación de modelos con <strong>Scikit-learn</strong> y
+                                preprocesamiento de datos.
+                                Sólida base
+                                en <strong>Pruebas de Hipótesis</strong> y <strong>Análisis de Regresión</strong>.</p>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-vial-circle-check"></i>
+                            <h3 data-i18n="about-qa-title">Quality Assurance</h3>
+                            <p data-i18n="about-qa-desc">Comprometido con la calidad del software mediante
+                                <strong>Ejecución de Pruebas</strong>,
+                                <strong>Reporte de
+                                    Errores</strong> y <strong>Verificación Lingüística</strong> con insights de IA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text" data-i18n="projects-title">Proyectos Destacados</span>
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 8: CRM Academia Jaime García -->
+                <article class="project-card featured">
+                    <div class="featured-badge" data-i18n="project-2-badge">Destacado</div>
+                    <div class="project-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <h3 data-i18n="project-8-title">CRM Academia Jaime García</h3>
+                    <p data-i18n="project-8-desc">Sistema CRM personalizado para la gestión integral de una academia de matemáticas, centralizando estudiantes, finanzas y automatización de clases.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                    <ul class="project-features">
+                        <li data-i18n="project-8-feat-1">Automatización del Ciclo de Vida de Zoom: Sincronización y asistencia automáticos</li>
+                        <li data-i18n="project-8-feat-2">Gestión Avanzada de Leads & Kanban Board para seguimiento comercial</li>
+                        <li data-i18n="project-8-feat-3">Módulo Contable y Reportes Inteligentes diarios por email</li>
+                    </ul>
+                    <div class="project-private" data-i18n="project-8-private">
+                        <i class="fas fa-lock"></i> Proyecto Privado
+                    </div>
+                </article>
+
+
+
+                <!-- Project 7: Visit Colombia -->
+                <article class="project-card featured">
+                    <div class="featured-badge" data-i18n="project-2-badge">Destacado</div>
+                    <div class="project-icon">
+                        <i class="fas fa-map-location-dot"></i>
+                    </div>
+                    <h3 data-i18n="project-7-title">Visit Colombia</h3>
+                    <p data-i18n="project-7-desc">Plataforma turística moderna diseñada para explorar mas de 1,100
+                        municipios de Colombia, integrando un asistente de IA especializado.</p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Tailwind</span>
+                        <span class="tag">AI Chatbot</span>
+                    </div>
+                    <ul class="project-features">
+                        <li data-i18n="project-7-feat-1">Chatbot Travel Expert con sistema Anti-Alucinaciones (Ground
+                            Truth)</li>
+                        <li data-i18n="project-7-feat-2">Auto-Navegación: La IA puede redirigir al usuario
+                            automáticamente por la web</li>
+                        <li data-i18n="project-7-feat-3">Estrategia de Grounding Híbrido con datos verificados de fuente
+                            abierta</li>
+                    </ul>
+                    <a href="https://visit-colombia.com" target="_blank" rel="noopener"
+                        class="project-link">
+                        <span data-i18n="project-7-visit">Visitar Proyecto</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Project 2: Super Cerebros -->
+                <article class="project-card featured">
+                    <div class="featured-badge" data-i18n="project-2-badge">Destacado</div>
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 data-i18n="project-2-title">Super Cerebros</h3>
+                    <p data-i18n="project-2-desc">Plataforma gamificada para aprender técnicas de cálculo mental del
+                        poseedor del Récord Guinness
+                        Jaime García Serrano.</p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                    <ul class="project-features">
+                        <li data-i18n="project-2-feat-1">Juegos interactivos de matemáticas mentales</li>
+                        <li data-i18n="project-2-feat-2">Seguimiento de progreso y tablas de clasificación</li>
+                        <li data-i18n="project-2-feat-3">Gestión de suscripciones</li>
+                    </ul>
+                    <a href="https://supercerebros.org/play" target="_blank" rel="noopener" class="project-link">
+                        <span data-i18n="project-2-link">Jugar Ahora</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Project 3: Audio Transcriber & Summarizer -->
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-microphone-lines"></i>
+                    </div>
+                    <h3 data-i18n="project-3-title">Audio Transcriber & Summarizer</h3>
+                    <p data-i18n="project-3-desc">Extracción de audio, transcripción con Whisper y generación de
+                        resúmenes inteligentes.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Whisper</span>
+                        <span class="tag">Hugging Face</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Next.js</span>
+                    </div>
+                    <ul class="project-features">
+                        <li data-i18n="project-3-feat-1">Transcripción automática de videos y Shorts</li>
+                        <li data-i18n="project-3-feat-2">Resúmenes y descripciones para RRSS usando modelos de **Hugging
+                            Face**</li>
+                        <li data-i18n="project-3-feat-3">Interfaz web moderna y soporte CLI</li>
+                    </ul>
+                    <a href="https://github.com/jalexisg/youtube" target="_blank" rel="noopener" class="project-link">
+                        <span data-i18n="project-3-link">Ver Repositorio</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Project 4: Population System -->
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3 data-i18n="project-4-title">Population Information System</h3>
+                    <p data-i18n="project-4-desc">Sistema robusto de monitoreo de población construido para
+                        escalabilidad y rendimiento.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Maven</span>
+                    </div>
+                    <ul class="project-features">
+                        <li data-i18n="project-4-feat-1">Generación automatizada de reportes de estadísticas
+                            poblacionales</li>
+                        <li data-i18n="project-4-feat-2">Pipeline CI/CD para testing y deployment automatizado</li>
+                        <li data-i18n="project-4-feat-3">Arquitectura containerizada para entornos consistentes</li>
+                    </ul>
+                    <a href="https://github.com/jalexisg/SE-Methods_Group-3" target="_blank" rel="noopener"
+                        class="project-link">
+                        <span data-i18n="project-4-link">Ver Repositorio</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+
+
+                <!-- Project 6: AI & ML -->
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 data-i18n="project-6-title">AI & Machine Learning</h3>
+                    <p data-i18n="project-6-desc">Proyectos de investigación y desarrollo en inteligencia artificial y
+                        aprendizaje automático.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">LangChain</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">RAG</span>
+                    </div>
+                    <ul class="project-features">
+                        <li data-i18n="project-6-feat-1">Analizador PDF con RAG para consultar documentos complejos</li>
+                        <li data-i18n="project-6-feat-2">Toolkit NLP para análisis de sentimientos y procesamiento de
+                            texto</li>
+                        <li data-i18n="project-6-feat-3">Modelos personalizados de clasificación y predicción</li>
+                    </ul>
+                    <div class="project-private" data-i18n="project-6-dev">
+                        <i class="fas fa-flask"></i> Investigación & Desarrollo
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text" data-i18n="skills-title">Tecnologías & Herramientas</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> <span data-i18n="skill-cat-1">Lenguajes & Datos</span></h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> TypeScript</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> <span data-i18n="skill-cat-2">Data Science & ML</span></h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-table"></i> Pandas</span>
+                        <span class="skill-tag"><i class="fas fa-square-root-alt"></i> NumPy</span>
+                        <span class="skill-tag"><i class="fas fa-chart-area"></i> Matplotlib</span>
+                        <span class="skill-tag"><i class="fas fa-brain"></i> Scikit-learn</span>
+                        <span class="skill-tag"><i class="fas fa-vial"></i> QA Testing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> <span data-i18n="skill-cat-3">Frameworks</span></h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-react"></i> React / Next.js</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> Node.js</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> Django</span>
+                        <span class="skill-tag"><i class="fas fa-chart-bar"></i> Streamlit</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> <span data-i18n="skill-cat-4">Herramientas & Plataformas</span>
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fas fa-book"></i> Jupyter</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub Actions</span>
+                        <span class="skill-tag"><i class="fas fa-robot"></i> Google Antigravity</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub Copilot</span>
+                        <span class="skill-tag"><i class="fas fa-cloud"></i> AWS</span>
+                        <span class="skill-tag"><i class="fas fa-face-smile"></i> Hugging Face</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">GitHub Stats</span>
+            </h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jalexisg&theme=github_dark"
+                        alt="GitHub Profile Details" loading="lazy">
+                </div>
+                <div class="stat-card">
+                    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jalexisg&theme=github_dark"
+                        alt="Most Used Languages" loading="lazy">
+                </div>
+                <div class="stat-card">
+                    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jalexisg&theme=github_dark"
+                        alt="GitHub Stats" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text" data-i18n="contact-title">Conectemos</span>
+            </h2>
+            <p class="contact-description" data-i18n="contact-desc">
+                ¿Tienes un proyecto en mente o quieres colaborar? ¡Me encantaría saber de ti!
+            </p>
+            <div class="contact-grid">
+                <a href="https://elinversoreficiente.com" target="_blank" rel="noopener" class="contact-card">
+                    <i class="fas fa-globe"></i>
+                    <h3 data-i18n="contact-web">Website</h3>
+                    <p>elinversoreficiente.com</p>
+                </a>
+                <a href="https://github.com/jalexisg" target="_blank" rel="noopener" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>@jalexisg</p>
+                </a>
+                <a href="https://www.linkedin.com/in/jalexisg/" target="_blank" rel="noopener" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p data-i18n="contact-linkedin">Connect</p>
+                </a>
+                <a href="https://www.instagram.com/el.inversor.eficiente/" target="_blank" rel="noopener"
+                    class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@el.inversor.eficiente</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Alexis García. <span data-i18n="footer-made">Hecho con</span> <i
+                    class="fas fa-heart"></i> y <i class="fas fa-coffee"></i></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
